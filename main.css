@@ -360,20 +360,7 @@ header .logo-main{
 
 }
 
-.myDescription--container h2{
-    font-size: 3rem;
-    color: rgb(0, 0, 0);
-    font-family: 'Roboto Mono', monospace;
-    letter-spacing: 0.2rem;
-    margin-left: 2rem;
 
-}
-
-.myDescription--container p{
-    font-size: 2rem;
-    padding: 0 2rem;
-
-}
 
 .projects{
     
