@@ -366,12 +366,24 @@ header .logo-main{
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0.2rem;
     margin-left: 2rem;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
 
 }
 
 .myDescription--container p{
     font-size: 2rem;
     padding: 0 2rem;
+    margin-top: 2rem;
+
+}
+
+.myDescription--container .more{
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 2rem;
+    border: 1px solid blue;
+    display: inline-block;
+    background-color: #39d4e2;
 
 }
 
