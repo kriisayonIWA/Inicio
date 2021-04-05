@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+.body-main{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.grid-container{
+    margin: auto;
+    max-width: 115rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+header .social-main{
+    background-color: #39e25e;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+header .social-main a{
+    margin-right: 2.5rem;
+    
+}
+
+header .social-main span{
+    color: white;
+    font-size: 3rem;
+    
+}
+
+header .logo-main{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-main .logo-main--container img{
+    width: 9rem;
+    height: 9rem;
+    margin-left: 3rem; 
+
+}
+
+.logo-main .about a{
+    color: white;
+    font-size: 1.8rem;
+    margin-right: 3rem;
+    border-bottom: 1px solid white;
+
+}
+
+.logo-main .about a:hover{
+    color: #39e25e;
+    border-bottom: 1px solid #39e25e;
+
+}
+
+/*MAIN INDEX*/
+
+.main-principal {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/1016709226/thumb/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.main-principal section{
+    display: grid;
+    grid-column: 2;
+    height: 40rem; 
+
+}
+
+
+.main-principal-text{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8rem;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    letter-spacing: 0.8rem;
+
+}
+
+.main-principal--button{
+    
+    background-color: #39e25e;
+    border: 1px solid white;
+    height: 5rem;
+    width: 12rem;
+    display: grid;
+    align-items: center;
+    margin: 0 auto;   
+
+}
+
+.main-principal--button a{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/*MAIN BLOGS*/
+
+.blog-new--container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #647c6c;
+    
+}
+
+.blog-new--main{
+    margin: 0.5rem 0rem 6rem ;
+}
+
+.blog-new--main p{
+    margin-left: 3rem;
+    font-size: 8rem;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    position: relative;
+    top: 4rem;
+    color: white;
+}
+
+.blog-new--main p strong{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.blog-new-img--container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.blog-new-img--container img{
+    width: 80%;
+    
+    
+}
+
+.blog-new--info{
+    margin: auto 1rem;
+    padding: 1rem;
+   
+}
+
+
+.blog-new--info h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    
+      
+}
+
+.blog-new--info p{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;  
+         
+}
+
+
+.button-blog{
+    font-size: 1.2rem;
+    margin-bottom: 2rem; 
+    text-transform: uppercase; 
+    font-family: 'Roboto Mono', monospace; 
+    color: black;
+    background-color: #39e25e;
+    width: 15rem;
+    padding: 1rem;
+    
+}
+
+
+.blogs-pots--container{
+    background-color: #96f3aa;
+         
+}
+
+.more-blogs{
+    padding: 3rem 0;
+         
+}
+
+.blogs-pots--container h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+         
+}
+
+
+.blogs-pots--container .post--container{
+    display: inline-block;
+    max-width: 30%;
+    padding: 1rem;
+    margin: 2rem 1rem 5rem 2rem;
+    
+         
+}
+
+
+.blogs-pots--container .post--container img{
+    width: 100%;
+    height: 22rem;
+    margin-top: 2rem;
+
+         
+}
+
+
+.blogs-pots--container .post--container h3{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    
+         
+}
+
+.blogs-pots--container .post--container p{
+    font-size: 1.6rem;
+    margin-bottom: 2.2rem;       
+}
+
+/* .main-blog{
+    background-color: #96f3aa;
+         
+} */
+
+.main-blog--container .new-article--background img{
+    width: 100%;   
+    height: 48rem;
+}
+
+.new-content--dateAndCategory span{
+    font-size: 1.4rem;
+    
+}
+
+.new-content--dateAndCategory .category{
+    color: #39e25e;
+    text-transform: uppercase;
+}
+
+.new-content--dateAndCategory{
+    margin-top: 6rem;
+    
+}
+
+.new-content--dateAndCategory .date,h2{
+    margin-left: 10rem;
+    margin-right: 2rem;
+    
+}
+
+
+.new-content--dateAndCategory h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.new-content--dateAndCategory p{
+    margin: 2rem auto;
+    font-size: 1.8rem;
+    font-weight: 400;
+    
+}
+
+.article--content{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    
+}
+
+.article--content p{
+    grid-column: 2;
+    margin: 4rem 2rem;
+    
+}
+
+.article--content a{
+    grid-column: 2;
+    margin: 1rem 2rem 4rem;
+    font-size: 1.5rem;
+    color: #39e25e;
+    text-transform: uppercase;
+}
+
+/* PERFIL */
+
+.aboutMe{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #647c6c;
+
+}
+
+.myPicture--container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.myPicture--container img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin: 8rem 0 8rem;
+
+}
+
+
+.myDescription--container{
+    grid-column: 2;
+    margin-top: 6rem;
+
+}
+
+.myDescription--container h2{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 0.2rem;
+    margin-left: 2rem;
+
+}
+
+.myDescription--container p{
+    font-size: 2rem;
+    padding: 0 2rem;
+
+}
+
+.projects{
+    
+    background-color: #96f3aa;
+         
+}
+
+.projects h2{
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+         
+}
+
+.myProyects--content .proyect--container{
+    display: inline-block;
+    max-width: 30%;
+    padding: 1rem;
+    margin: 2rem 1rem 5rem 2rem;
+
+}
+
+.proyect--container h3{
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.proyect--container img{
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+/* FOOTER */
+
+.container--footer {
+    background-color: #000201;
+    border-top: 3rem solid #39e25e;  
+}
+
+.container--footer p{
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1.5rem 0;
+  
+}
+
+.container--footer p a{
+    
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+ 
+}
+
+
+.container--footer p a:hover{
+    
+    color: #39e25e;
+   
+}
+
+

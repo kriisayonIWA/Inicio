@@ -1,0 +1,78 @@
+@media (max-width:985px){
+    
+    .myDescription--container p{
+        padding-bottom: 3rem;
+           
+    }
+
+
+}
+
+@media (max-width:950px){
+    .blog-new--container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    .blog-new--info{
+        margin-bottom: 2.5rem;
+    }
+
+    .blogs-pots--container .post--container{
+        max-width: 45%;
+          
+    }
+
+    .aboutMe{
+        display: block;
+        
+          
+    }
+
+    .myPicture--container img{
+       margin-bottom: 0.2rem;
+             
+    }
+
+    .myDescription--container p{
+        padding-bottom: 3rem;
+    
+              
+    }
+
+    .projects{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+        
+          
+    }
+
+    .myProyects--content .proyect--container{
+        max-width: 45%;
+          
+    }
+
+
+
+}
+
+@media (max-width:643px){
+    
+    .blogs-pots--container .post--container{
+        max-width: 95%;
+          
+    }
+
+    .blogs-pots--container .post--container img{
+        background-size: cover;
+          
+    }
+
+    .myProyects--content .proyect--container{
+        max-width: 95%;
+          
+    }
+
+
+
+}
