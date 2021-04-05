@@ -336,6 +336,7 @@ header .logo-main{
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: #68647c;
+    
 
 }
 
@@ -357,15 +358,17 @@ header .logo-main{
 .myDescription--container{
     grid-column: 2;
     margin-top: 8rem;
+    
 
 }
 
 .myDescription--container h2{
     font-size: 3rem;
-    color: rgb(41, 137, 216);
+    color: rgb(255, 255, 255);
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0.2rem;
     margin-left: 2rem;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
     
 
 }
@@ -374,6 +377,16 @@ header .logo-main{
     font-size: 2rem;
     padding: 0 2rem;
     margin-top:1.5rem;
+
+}
+
+.myDescription--container .more{
+    font-size: 2rem;
+    margin:2rem;
+    padding: 1rem;
+    border: 2px solid blue;
+    display: inline-block;
+    background: #39d4e2;
 
 }
 
